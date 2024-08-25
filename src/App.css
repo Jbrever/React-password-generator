@@ -1,0 +1,56 @@
+body{
+  background-color: #232323;
+}
+.container{
+  width: auto;
+  height: 120px;
+  background-color: rgb(109, 111, 109);
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50% , -50%); 
+  border-radius: 15px;
+}
+.inp-box{
+  margin: 20px;
+}
+.inp{
+  border-radius: 20px 0 0 20px ;
+  padding:5px 15px;
+  font-size: 26px;
+  color: rgb(255, 119, 1);
+  outline: none;
+  border: none;  
+}
+.copyBtn{
+  height: 42px;
+  outline: none;
+  font-size: 20px;
+  border: none;
+  border-radius: 0 20px 20px 0;
+  padding:5px 15px;
+  position: relative;
+  top: -2px;
+  left: -2px;
+  background-color: rgba(23, 140, 224, 0.822);
+  color: rgb(233, 233, 233);
+  font-weight: bolder;
+}
+.copyBtn:hover{
+  background-color:  rgb(19, 147, 237);
+}
+
+.check-box-container{
+  height: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+}
+
+input[type="checkbox"]{
+  width: 16px;
+  height: 16px;
+  margin: 5px;
+}
